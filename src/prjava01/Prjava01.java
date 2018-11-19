@@ -11,6 +11,7 @@ public class Prjava01 {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) throws IOException {
         File f = new File("fitxer.html");
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(f))) {
